@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Environment variables and local tool caches
+.env
+.uv-cache/
+
+# Test and type-checker output
+.pytest_cache/
+.mypy_cache/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
