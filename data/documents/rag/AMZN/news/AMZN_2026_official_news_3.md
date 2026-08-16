@@ -1,0 +1,2 @@
+<!-- RAG_METADATA: {"company_name": "Amazon", "ticker": "AMZN", "document_name": "How Amazon's AI shopping assistant makes hundreds of millions of products feel personal", "document_type": "official_news", "fiscal_year": 2026, "published_date": "Wed, 12 Aug 2026 16:55:18 GMT", "source": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-learn-and-be-curious-podcast?utm_source=rss"} -->
+Doug Herrington, Amazon's CEO of Worldwide Stores, explains why conversational AI is the next format shift in retail—just as the catalog gave way to the search bar.

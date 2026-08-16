@@ -1,0 +1,2 @@
+<!-- RAG_METADATA: {"company_name": "AMD", "ticker": "AMD", "document_name": "AMD Acquires Taalas to Advance Compute Solutions for Rapidly Growing AI Inference Market", "document_type": "official_news", "fiscal_year": 2026, "published_date": "Thu, 06 Aug 26 16:05:00 -0400", "source": "https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market"} -->
+

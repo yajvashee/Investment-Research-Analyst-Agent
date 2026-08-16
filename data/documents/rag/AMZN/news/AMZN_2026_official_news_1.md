@@ -1,0 +1,2 @@
+<!-- RAG_METADATA: {"company_name": "Amazon", "ticker": "AMZN", "document_name": "How Amazon is supporting communities impacted by wildfires in Spokane, Washington", "document_type": "official_news", "fiscal_year": 2026, "published_date": "Sat, 15 Aug 2026 02:00:00 GMT", "source": "https://www.aboutamazon.com/news/community/spokane-washington-fires-amazon-disaster-relief?utm_source=rss"} -->
+Amazon is working with the American Red Cross, Save the Children, and local nonprofits to support thousands of people in Spokane County who can’t go home.

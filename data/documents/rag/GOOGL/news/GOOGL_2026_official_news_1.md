@@ -1,0 +1,2 @@
+<!-- RAG_METADATA: {"company_name": "Alphabet", "ticker": "GOOGL", "document_name": "Introducing Gemini 3.7 Flash", "document_type": "official_news", "fiscal_year": 2026, "published_date": "Thu, 13 Aug 2026 17:00:00 +0000", "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"} -->
+Spark icon next to the text "Gemini 3.7 Flash", all on a light blue backgorund

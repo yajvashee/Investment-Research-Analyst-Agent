@@ -6,6 +6,8 @@ __pycache__/
 # Environment variables and local tool caches
 .env
 .uv-cache/
+data/sample/simfin/
+data/chroma/
 
 # Test and type-checker output
 .pytest_cache/

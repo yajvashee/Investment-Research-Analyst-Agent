@@ -1,0 +1,2 @@
+<!-- RAG_METADATA: {"company_name": "Alphabet", "ticker": "GOOGL", "document_name": "Bring your spreadsheet data to life with Sheets canvas", "document_type": "official_news", "fiscal_year": 2026, "published_date": "Thu, 13 Aug 2026 16:45:00 +0000", "source": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/"} -->
+The video shows Sheets canvas in action.

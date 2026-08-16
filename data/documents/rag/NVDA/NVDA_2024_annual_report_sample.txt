@@ -1,0 +1,5 @@
+BUSINESS OVERVIEW
+NVIDIA designs accelerated computing platforms for data centres, gaming, visualisation, and automotive applications.
+
+ITEM 1A RISK FACTORS
+NVIDIA operates in a competitive and rapidly changing market. Demand may be affected by customer concentration, supply constraints, export controls, manufacturing capacity, and advanced components. Product defects, cybersecurity incidents, or regulatory changes could affect operating performance.

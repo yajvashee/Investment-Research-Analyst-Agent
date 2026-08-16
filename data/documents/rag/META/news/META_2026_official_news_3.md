@@ -1,0 +1,2 @@
+<!-- RAG_METADATA: {"company_name": "Meta", "ticker": "META", "document_name": "The Future is for Everyone", "document_type": "official_news", "fiscal_year": 2026, "published_date": "Mon, 10 Aug 2026 10:01:23 +0000", "source": "https://about.fb.com/news/2026/08/the-future-is-for-everyone/"} -->
+A letter from Mark Zuckerberg on the path to a positive AI future. The post The Future is for Everyone appeared first on Meta Newsroom .

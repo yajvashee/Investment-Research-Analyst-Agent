@@ -1,0 +1,2 @@
+<!-- RAG_METADATA: {"company_name": "Apple", "ticker": "AAPL", "document_name": "Apple opens Advanced Manufacturing Center in Houston", "document_type": "official_news", "fiscal_year": 2026, "published_date": "2026-08-13T18:30:29.099Z", "source": "https://www.apple.com/newsroom/2026/08/apple-opens-advanced-manufacturing-center-in-houston/"} -->
+Apple opened its new Advanced Manufacturing Center in Houston, offering free training and educational sessions for small- and medium-sized businesses.

@@ -1,0 +1,2 @@
+<!-- RAG_METADATA: {"company_name": "Tesla", "ticker": "TSLA", "document_name": "Tesla Releases First Quarter 2026 Financial Results", "document_type": "official_news", "fiscal_year": 2026, "published_date": "2026-04-22", "source": "https://ir.tesla.com/press-release/tesla-releases-first-quarter-2026-financial-results"} -->
+Tesla announced that its first-quarter 2026 financial results had been posted on its Investor Relations website. It also scheduled a management update and question-and-answer webcast to discuss the company’s results and outlook.

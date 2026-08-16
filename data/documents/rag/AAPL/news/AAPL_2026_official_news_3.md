@@ -1,0 +1,2 @@
+<!-- RAG_METADATA: {"company_name": "Apple", "ticker": "AAPL", "document_name": "Apple, MLB announce September \u201cFriday Night Baseball\u201d schedule", "document_type": "official_news", "fiscal_year": 2026, "published_date": "2026-08-10T14:59:21.977Z", "source": "https://www.apple.com/newsroom/2026/08/apple-mlb-announce-september-friday-night-baseball-schedule/"} -->
+Apple and Major League Baseball unveiled the September schedule for “Friday Night Baseball.”

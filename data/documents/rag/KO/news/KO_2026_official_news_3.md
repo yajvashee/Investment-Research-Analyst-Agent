@@ -1,0 +1,2 @@
+<!-- RAG_METADATA: {"company_name": "Coca-Cola", "ticker": "KO", "document_name": "The Coca-Cola Company Announces Technology Disruption Involving fairlife Operations", "document_type": "official_news", "fiscal_year": 2026, "published_date": "Thu, 16 Jul 26 16:15:00 -0400", "source": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1166/the-coca-cola-company-announces-technology-disruption-involving-fairlife-operations"} -->
+

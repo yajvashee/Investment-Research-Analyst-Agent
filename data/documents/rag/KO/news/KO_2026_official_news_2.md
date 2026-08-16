@@ -1,0 +1,2 @@
+<!-- RAG_METADATA: {"company_name": "Coca-Cola", "ticker": "KO", "document_name": "The Coca-Cola Company Announces Significant Progress in Restoring fairlife Operations Following Technology Disruption", "document_type": "official_news", "fiscal_year": 2026, "published_date": "Mon, 27 Jul 26 06:55:00 -0400", "source": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1167/the-coca-cola-company-announces-significant-progress-in-restoring-fairlife-operations-following-technology-disruption"} -->
+

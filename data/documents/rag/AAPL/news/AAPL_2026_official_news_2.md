@@ -1,0 +1,2 @@
+<!-- RAG_METADATA: {"company_name": "Apple", "ticker": "AAPL", "document_name": "Apple Arcade levels up with Block Blast!+ and Art of Fauna: Cozy Puzzles+", "document_type": "official_news", "fiscal_year": 2026, "published_date": "2026-08-11T13:59:21.581Z", "source": "https://www.apple.com/newsroom/2026/08/apple-arcade-levels-up-with-block-blast-plus-and-art-of-fauna-cozy-puzzles-plus/"} -->
+Apple Arcade upgrades its catalog of hit puzzle games with Block Blast+ and Art of Fauna: Cozy Puzzles+.

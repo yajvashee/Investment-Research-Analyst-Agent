@@ -1,0 +1,2 @@
+<!-- RAG_METADATA: {"company_name": "Alphabet", "ticker": "GOOGL", "document_name": "Get updates while your Pixel 11 Pro is face down with HiLight.", "document_type": "official_news", "fiscal_year": 2026, "published_date": "Thu, 13 Aug 2026 16:00:00 +0000", "source": "https://blog.google/products-and-platforms/devices/pixel/pixel-11-pro-hilight/"} -->
+HiLight, a new Pixel 11 Pro feature, gently glows to notify you of timely updates — keeping you informed when your phone is down.

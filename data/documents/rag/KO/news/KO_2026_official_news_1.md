@@ -1,0 +1,2 @@
+<!-- RAG_METADATA: {"company_name": "Coca-Cola", "ticker": "KO", "document_name": "Coca-Cola Reports Second Quarter 2026 Results and Raises Full Year Guidance", "document_type": "official_news", "fiscal_year": 2026, "published_date": "Tue, 28 Jul 26 06:55:00 -0400", "source": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1168/coca-cola-reports-second-quarter-2026-results-and-raises-full-year-guidance"} -->
+

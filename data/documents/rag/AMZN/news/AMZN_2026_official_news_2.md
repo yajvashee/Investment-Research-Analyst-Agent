@@ -1,0 +1,2 @@
+<!-- RAG_METADATA: {"company_name": "Amazon", "ticker": "AMZN", "document_name": "5 ways Amazon is investing in Maryland", "document_type": "official_news", "fiscal_year": 2026, "published_date": "Thu, 13 Aug 2026 16:20:49 GMT", "source": "https://www.aboutamazon.com/news/community/amazon-investment-maryland-jobs-infrastructure-small-business?utm_source=rss"} -->
+Amazon's investments are boosting the state's economy while creating opportunities for those who call Maryland home.
