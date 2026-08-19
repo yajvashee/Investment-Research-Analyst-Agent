@@ -1,0 +1,12 @@
+[
+  {"id": "historical_msft", "question": "How has Microsoft's revenue changed between 2021 and 2024?", "expected_tools": ["historical"]},
+  {"id": "market_pe", "question": "What is Microsoft's current P/E ratio?", "expected_tools": ["market"]},
+  {"id": "rag_risks", "question": "What are Microsoft's main business risks?", "expected_tools": ["rag"]},
+  {"id": "compare_msft_aapl", "question": "Compare Microsoft and Apple as investments.", "expected_tools": ["historical", "market", "rag"]},
+  {"id": "compare_nvda_msft", "question": "Compare Nvidia and Microsoft.", "expected_tools": ["historical", "market", "rag"]},
+  {"id": "revenue_universe", "question": "Which available companies have stronger historical revenue growth?", "expected_tools": ["historical"]},
+  {"id": "cash_universe", "question": "Which available companies have stronger cash positions?", "expected_tools": ["historical"]},
+  {"id": "balanced_strategy", "question": "I have $1000 to invest and want a balanced strategy.", "expected_tools": ["historical", "market", "rag"]},
+  {"id": "lower_risk_strategy", "question": "I have $1000 and prefer lower risk. What example strategy could I consider?", "expected_tools": ["historical", "market", "rag"]},
+  {"id": "recent_nvidia", "question": "What recent developments has NVIDIA announced?", "expected_tools": ["rag"]}
+]

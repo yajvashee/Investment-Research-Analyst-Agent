@@ -5,7 +5,13 @@ from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 def _is_heading(line: str) -> bool:
-    return bool(re.match(r"^(ITEM\s+\d+[A-Z]?|[A-Z][A-Z &,-]{4,})$", line.strip()))
+    """Recognise SEC-style ITEM headings as well as ordinary all-caps headings."""
+    return bool(
+        re.match(
+            r"^(ITEM\s+\d+[A-Z]?(?:\s+[A-Z][A-Z &,-]*)?|[A-Z][A-Z &,-]{4,})$",
+            line.strip(),
+        )
+    )
 
 def split_into_sections(document: Document) -> list[Document]:
     section, lines, sections = "Introduction", [], []

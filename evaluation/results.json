@@ -1,0 +1,182 @@
+[
+  {
+    "id": "historical_msft",
+    "question": "How has Microsoft's revenue changed between 2021 and 2024?",
+    "expected_tools": [
+      "historical"
+    ],
+    "actual_tools": [
+      "historical"
+    ],
+    "tool_selection_pass": true,
+    "companies_detected": [
+      "MSFT"
+    ],
+    "mode": "routing_only",
+    "warnings": [],
+    "sources_returned": 0
+  },
+  {
+    "id": "market_pe",
+    "question": "What is Microsoft's current P/E ratio?",
+    "expected_tools": [
+      "market"
+    ],
+    "actual_tools": [
+      "market"
+    ],
+    "tool_selection_pass": true,
+    "companies_detected": [
+      "MSFT"
+    ],
+    "mode": "routing_only",
+    "warnings": [],
+    "sources_returned": 0
+  },
+  {
+    "id": "rag_risks",
+    "question": "What are Microsoft's main business risks?",
+    "expected_tools": [
+      "rag"
+    ],
+    "actual_tools": [
+      "rag"
+    ],
+    "tool_selection_pass": true,
+    "companies_detected": [
+      "MSFT"
+    ],
+    "mode": "routing_only",
+    "warnings": [],
+    "sources_returned": 0
+  },
+  {
+    "id": "compare_msft_aapl",
+    "question": "Compare Microsoft and Apple as investments.",
+    "expected_tools": [
+      "historical",
+      "market",
+      "rag"
+    ],
+    "actual_tools": [
+      "historical",
+      "market",
+      "rag"
+    ],
+    "tool_selection_pass": true,
+    "companies_detected": [
+      "AAPL",
+      "MSFT"
+    ],
+    "mode": "routing_only",
+    "warnings": [],
+    "sources_returned": 0
+  },
+  {
+    "id": "compare_nvda_msft",
+    "question": "Compare Nvidia and Microsoft.",
+    "expected_tools": [
+      "historical",
+      "market",
+      "rag"
+    ],
+    "actual_tools": [
+      "historical",
+      "market",
+      "rag"
+    ],
+    "tool_selection_pass": true,
+    "companies_detected": [
+      "MSFT",
+      "NVDA"
+    ],
+    "mode": "routing_only",
+    "warnings": [],
+    "sources_returned": 0
+  },
+  {
+    "id": "revenue_universe",
+    "question": "Which available companies have stronger historical revenue growth?",
+    "expected_tools": [
+      "historical"
+    ],
+    "actual_tools": [
+      "historical"
+    ],
+    "tool_selection_pass": true,
+    "companies_detected": [],
+    "mode": "routing_only",
+    "warnings": [],
+    "sources_returned": 0
+  },
+  {
+    "id": "cash_universe",
+    "question": "Which available companies have stronger cash positions?",
+    "expected_tools": [
+      "historical"
+    ],
+    "actual_tools": [
+      "historical"
+    ],
+    "tool_selection_pass": true,
+    "companies_detected": [],
+    "mode": "routing_only",
+    "warnings": [],
+    "sources_returned": 0
+  },
+  {
+    "id": "balanced_strategy",
+    "question": "I have $1000 to invest and want a balanced strategy.",
+    "expected_tools": [
+      "historical",
+      "market",
+      "rag"
+    ],
+    "actual_tools": [
+      "historical",
+      "market",
+      "rag"
+    ],
+    "tool_selection_pass": true,
+    "companies_detected": [],
+    "mode": "routing_only",
+    "warnings": [],
+    "sources_returned": 0
+  },
+  {
+    "id": "lower_risk_strategy",
+    "question": "I have $1000 and prefer lower risk. What example strategy could I consider?",
+    "expected_tools": [
+      "historical",
+      "market",
+      "rag"
+    ],
+    "actual_tools": [
+      "historical",
+      "market",
+      "rag"
+    ],
+    "tool_selection_pass": true,
+    "companies_detected": [],
+    "mode": "routing_only",
+    "warnings": [],
+    "sources_returned": 0
+  },
+  {
+    "id": "recent_nvidia",
+    "question": "What recent developments has NVIDIA announced?",
+    "expected_tools": [
+      "rag"
+    ],
+    "actual_tools": [
+      "rag"
+    ],
+    "tool_selection_pass": true,
+    "companies_detected": [
+      "NVDA"
+    ],
+    "mode": "routing_only",
+    "warnings": [],
+    "sources_returned": 0
+  }
+]

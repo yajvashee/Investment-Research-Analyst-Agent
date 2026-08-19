@@ -1,0 +1,97 @@
+<!-- RAG_METADATA: {"company_name": "MSFT", "ticker": "MSFT", "document_name": "MSFT Annual Report: Business and Risk Extract", "document_type": "annual_report_extract", "fiscal_year": 2024, "source": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm"} -->
+ITEM 1. BUSINESS
+ 
+GENERAL
+ 
+Embracing Our Future
+ 
+Microsoft is a technology company committed to making digital technology and artificial intelligence (“AI”) available broadly and doing so responsibly, with a mission to empower every person and every organization on the planet to achieve more. We create platforms and tools, powered by AI, that deliver innovative solutions that meet the evolving needs of our customers. From infrastructure and data, to business applications and collaboration, we provide unique, differentiated value to customers. We strive to create local opportunity, growth, and impact in every country around the world.
+ 
+We have entered a new age of AI that will fundamentally transform productivity for every individual, organization, and industry on earth, while helping us address some of our most pressing challenges. Microsoft's AI offerings, including Copilot and our Copilot stack, are already orchestrating a new era of AI transformation, driving better business outcomes across every role and industry. As a company, we believe we can be the democratizing force for this new generation of technology and the opportunity it will help unlock for every country, community, and individual. 
+ 
+We believe AI should be as empowering across communities as it is powerful, and we’re committed to ensuring it is responsibly designed and built with safety and security from the outset.
+ 
+What We Offer
+ 
+Founded in 1975, we develop and support software, services, devices, and solutions that deliver new value for customers and help people and businesses realize their full potential.
+ 
+We offer an array of services, including cloud-based solutions that provide customers with software, services, platforms, and content, and we provide solution support and consulting services. We also deliver relevant online advertising to a global audience.
+ 
+Our products include operating systems, cross-device productivity and collaboration applications, server applications, business solution applications, desktop and server management tools, software development tools, and video games. We also design and sell devices, including PCs, tablets, gaming and entertainment consoles, other intelligent devices, and related accessories.
+ 
+
+3
+ 
+ 
+
+PART I
+Item 1
+ 
+ 
+The Ambitions That Drive Us
+ 
+To achieve our vision, our research and development efforts focus on three interconnected ambitions:
+ 
+•
+Reinvent productivity and business processes.
+ 
+•
+Build the intelligent cloud and intelligent edge platform.
+ 
+•
+Create more personal computing.
+ 
+Reinvent Productivity and Business Processes
+ 
+At Microsoft, we provide technology and resources to help our customers create a secure, productive work environment. Our family of products plays a key role in the ways the world works, learns, and connects. 
+ 
+Our growth depends on securely delivering continuous innovation and advancing our leading productivity and collaboration tools and services, including Microsoft 365, LinkedIn, and Dynamics 365. Microsoft 365 is an AI first platform that brings together Office, Windows, Copilot, and Enterprise Mobility + Security to help organizations empower their employees. Copilot for Microsoft 365 combines AI with business data in the Microsoft Graph and Microsoft 365 applications. Microsoft Teams is a comprehensive platform for communication and collaboration, with meetings, calling, chat, file collaboration, and the ability to bring all of the applications teams use into a single place. Microsoft Viva is an employee experience platform that brings together communications, knowledge, learning, resources, and insights.
+ 
+Together, the Microsoft Cloud, Dynamics 365, Microsoft Teams, and our AI offerings bring a new era of collaborative applications for every role and business function to get insights and business impact faster. Dynamics 365 is a portfolio of intelligent business applications that delivers operational efficiency and breakthrough customer experiences. Our role-based extensions of Microsoft Copilot – Copilot for Sales, Copilot for Service, and Copilot for Finance – bring together the power of Copilot for Microsoft 365 with role-specific insights and workflow assistance to streamline business processes. Copilot Studio allows customers to customize Copilot for Microsoft 365 or build their own Copilot. Microsoft Power Platform helps domain experts drive productivity gains with low-code/no-code tools, robotic process automation, virtual agents, and business intelligence. Copilot Pro is a consumer subscription service that offers faster and more powerful AI assistance in Microsoft 365 apps and on the web. LinkedIn combines our unique data with this new generation of AI to transform the way professionals learn, sell, market, and get hired. 
+ 
+Build the Intelligent Cloud and Intelligent Edge Platform
+ 
+Digital transformation and adoption of AI continues to revolutionize more business workstreams for organizations in every sector across the globe. For e
+
+ITEM 1A. RISK FACTORS
+ 
+Our operations and financial results are subject to various risks and uncertainties, including those described below, that could adversely affect our business, operations, financial condition, results of operations, liquidity, and the trading price of our common stock.
+ 
+STRATEGIC AND COMPETITIVE RISKS
+ 
+We face intense competition across all markets for our products and services, which may adversely affect our results of operations.
+ 
+Competition in the technology sector
+ 
+Our competitors range in size from diversified global companies with significant research and development resources to small, specialized firms whose narrower product lines may let them be more effective in deploying technical, marketing, and financial resources. Barriers to entry in many of our businesses are low and many of the areas in which we compete evolve rapidly with changing and disruptive technologies, shifting user needs, and frequent introductions of new products and services. If we do not continue to innovate and provide products, devices, and services that appeal to businesses and consumers, we may not remain competitive, which may adversely affect our business, financial condition, and results of operations.
+ 
+Competition among platform-based ecosystems
+ 
+An important element of our business model has been to create platform-based ecosystems on which many participants can build diverse solutions. A well-established ecosystem creates beneficial network effects among users, application developers, and the platform provider that can accelerate growth. Establishing significant scale in the marketplace is necessary to achieve and maintain attractive margins. We face significant competition from firms that provide competing platforms.
+ 
+•
+A competing vertically-integrated model, in which a single firm controls the software and hardware elements of a product and related services, has succeeded with some consumer products such as PCs, tablets, smartphones, gaming consoles, wearables, and other endpoint devices. Competitors pursuing this model also earn revenue from services integrated with the hardware and software platform, including applications and content sold through their integrated marketplaces. They may also be able to claim security and performance benefits from their vertically integrated offer. We also offer some vertically-integrated hardware and software products and services. Shifting a portion of our business to a vertically integrated model may increase our cost of revenue and reduce our operating margins.
+ 
+•
+We derive substantial revenue from licenses of Windows operating systems on PCs. We face significant competition from competing platforms developed for new devices and form factors such as smartphones and tablets. These devices compete on multiple bases including price and the perceived utility of the device and its platform. Users continue to turn to these devices to perform functions that in the past were performed by PCs. Even if many users view these devices as complementary to a PC, the prevalence of these devices may make it more difficult to attract application developers to our PC operating system platforms. Competing with operating systems licensed at low or no cost may decrease our PC operating system margins. Popular products or services offered on competing platforms could increase their competitive strength. In addition, some of our devices compete with products made by our original equipment manufacturer (“OEM”) partners, which may affect their commitment to our platform.
+ 
+•
+Competing platforms have content and application marketplaces with scale and significant installed bases. The variety and utility of content and applications available on a platform are important to device purchasing decisions. Users may incur costs to move data and buy new content and applications when switching platforms. To compete, we must successfully enlist developers to write applications for our platform and ensure that these applications have high quality, security, customer appeal, and value. Efforts to compete with competitors’ content and application marketplaces may increase our cost of revenue and lower our operating margins. Competitors’ rules governing their content and applications marketplaces may restrict our ability to distribute products and services through them in accordance with our technical and business model objectives.
+ 
+
+20
+ 
+ 
+
+PART I
+Item 1A
+ 
+ 
+For all of these reasons, we may not be able to compete successfully against our current and future competitors, which may adversely affect our business, operations, financial condition, and results of operations.
+ 
+Business model competition
+ 
+Companies compete with us based on a growing variety of business models.
+ 
+•
+A material part of our business involves cloud-based services available across the spectrum of computing devices. Our competitors continue to develop and deploy cloud-based services for consumers and business cus

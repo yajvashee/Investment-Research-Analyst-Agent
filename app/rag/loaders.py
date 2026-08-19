@@ -14,6 +14,11 @@ COMPANY_NAMES = {
 }
 
 
+def _is_active_rag_file(path: Path) -> bool:
+    """Keep the presentation corpus small while retaining the full source archive."""
+    return path.name.endswith("_investment_research_extract.txt") or path.name.endswith("_official_news_1.md")
+
+
 class _HtmlTextExtractor(HTMLParser):
     """Small dependency-free HTML-to-text extractor for SEC filing pages."""
 
@@ -74,6 +79,6 @@ def load_document(path: Path) -> list[Document]:
 def load_company_documents(documents_directory: Path) -> list[Document]:
     documents: list[Document] = []
     for path in sorted(documents_directory.rglob("*")):
-        if path.is_file() and path.suffix.lower() in {".txt", ".md", ".pdf", ".html"}:
+        if path.is_file() and _is_active_rag_file(path):
             documents.extend(load_document(path))
     return documents

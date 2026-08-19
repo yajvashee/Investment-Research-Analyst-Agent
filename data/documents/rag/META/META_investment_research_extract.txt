@@ -1,0 +1,64 @@
+<!-- RAG_METADATA: {"company_name": "META", "ticker": "META", "document_name": "META Annual Report: Business and Risk Extract", "document_type": "annual_report_extract", "fiscal_year": 2024, "source": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"} -->
+Item 1.Business 
+
+Overview
+
+Our mission is to build the future of human connection and the technology that makes it possible. 
+
+We build technology that helps people connect and share, find and build communities, and grow businesses. Our products enable people to connect and share with friends and family through mobile devices, personal computers, virtual reality (VR) and mixed reality (MR) headsets, augmented reality (AR), and wearables. We also help people discover and learn about what is going on in the world around them, enable people to share their experiences, ideas, photos, videos, and other content with audiences ranging from their closest family members and friends to the public at large, and stay connected everywhere by accessing our products. Meta is moving our offerings beyond 2D screens toward immersive experiences like augmented, mixed, and virtual reality to help build the next computing platform. Our vision does not center on any single product, but rather an entire ecosystem of experiences, devices, and new technologies. While the metaverse is in the very early stages of its development, we believe it will become the next computing platform and the future of social interaction. 
+
+Across our work, we are innovating in artificial intelligence (AI) technologies to build new experiences that help make our platform more social, useful, and immersive. Our AI investments support initiatives across our products and services, helping power the systems that rank content in our apps, our discovery engine that recommends relevant content, the tools advertisers use to reach customers, the development of new generative AI experiences, and the tools that make our product development more efficient and productive. For example, Meta AI is an assistant that's available across our apps, on Ray-Ban Meta AI glasses and on the web. It's designed to help people learn, get things done, create content, and connect with others to make the most of every moment.
+
+We report financial results for two segments: Family of Apps (FoA) and Reality Labs (RL). Currently, we generate substantially all of our revenue from selling advertising placements on our family of apps to marketers, which is reflected in FoA. Ads on our platform enable marketers to reach people across a range of marketing objectives, such as generating leads or driving awareness. Marketers purchase ads that can appear in multiple places including on Facebook, Instagram, Messenger, and third-party applications and websites. RL generates revenue from sales of consumer hardware products, software, and content. 
+
+We invest in our business based on our company priorities. In 2025, we intend to focus on several key investment areas: generative AI, our discovery engine, the metaverse and wearables, Threads, monetization of our products and services, platform integrity and community support, and infrastructure capacity. 
+
+The majority of our investments are directed toward developing our family of apps. In 2024, 79% of our total costs and expenses were recognized in FoA and 21% were recognized in RL. Our FoA investments were $75.25 billion in 2024 and include expenses relating to headcount, data centers and technical infrastructure as part of our efforts to develop our apps and our advertising services. We are also making significant investments in our metaverse and wearables efforts. This includes developing virtual, mixed, and augmented reality devices, software for social platforms, neural interfaces, and other foundational technologies. Our total RL investments were $19.88 billion in 2024 and include expenses relating to headcount and technology development across these efforts. These are fundamentally new technologies that we expect will evolve as the next computing platform develops, and many products may only be fully realized in the next decade. Although it is inherently difficult to predict when and how the next computing platform will develop, we expect our RL segment to continue to operate at a loss for the foreseeable future, and our ability to support our efforts to build the next computing platform is dependent on generating sufficient profits from other areas of our business. We expect this will be a complex, evolving, and long-term initiative. We are investing now because we believe this is the next chapter of the internet and will unlock monetization opportunities for businesses, developers, and creators, including around advertising, hardware, and digital goods. 
+
+6
+
+Table of Contents
+Family of Apps Products
+
+•Facebook. Facebook helps give people the power to build community and bring the world closer together. It's a place for people to share life's moments and discuss what's happening, nurture and build relationships, discover and connect to people with shared interests, and create economic opportunity. They can do this through Feed, Reels, Stories, Groups, Marketplace, and more.
+
+•Instagram. Instagram brings people closer to the people and thin
+
+Item 1A. Risk Factors
+
+Certain factors may have a material adverse effect on our business, financial condition, and results of operations. You should consider carefully the risks and uncertainties described below, in addition to other information contained in this Annual Report on Form 10-K, including our consolidated financial statements and related notes. The risks and uncertainties described below are not the only ones we face. Additional risks and uncertainties that we are unaware of, or that we currently believe are not material, may also become important factors that adversely affect our business. If any of the following risks actually occurs, our business, financial condition, results of operations, and future prospects could be materially and adversely affected. In that event, the trading price of our Class A common stock could decline, and you could lose part or all of your investment.
+Summary Risk Factors
+
+Our business is subject to a number of risks, including risks that may prevent us from achieving our business objectives or may adversely affect our business, financial condition, results of operations, cash flows, and prospects. These risks are discussed more fully below and include, but are not limited to, risks related to:
+Risks Related to Our Product Offerings
+•our ability to add and retain users and maintain levels of user engagement with our products;
+•the loss of, or reduction in spending by, our marketers;
+•reduced availability of data signals used by our ad targeting and measurement tools;
+•ineffective operation with mobile operating systems or changes in our relationships with mobile operating system partners;
+•failure of our new products, or changes to our existing products, to attract or retain users or generate revenue;
+Risks Related to Our Business Operations and Financial Results
+•our ability to compete effectively;
+•fluctuations in our financial results;
+•unfavorable media coverage and other risks affecting our ability to maintain and enhance our brands; 
+•our ability to build, maintain, and scale our technical infrastructure, and risks associated with disruptions in our service, catastrophic events, and crises;
+•operating our business in multiple countries around the world; 
+•litigation, including class action lawsuits;
+•acquisitions and our ability to successfully integrate our acquisitions;
+Risks Related to Government Regulation and Enforcement
+•government restrictions on access to Facebook or our other products, or other actions that impair our ability to sell or deliver advertising, in their countries;
+•complex and evolving U.S. and foreign privacy, data use, data combination, data protection, content and content moderation, competition, youth, safety, consumer protection, advertising, and other laws and regulations, including the General Data Protection Regulation (GDPR), Digital Markets Act (DMA), Digital Services Act (DSA), Artificial Intelligence Act (EU AI Act), and the UK Digital Markets, Competition and Consumer Act (DMCC); 
+•the impact of government investigations, enforcement actions, and settlements, including litigation and investigations by privacy, consumer protection, and competition authorities, among others;
+
+14
+
+Table of Contents
+•our ability to comply with regulatory and legislative privacy requirements, including our consent order with the Federal Trade Commission (FTC); 
+Risks Related to Data, Security, Platform Integrity, and Intellectual Property
+•the occurrence of security breaches, improper access to or disclosure of our data or user data, and other cyber incidents, as well as intentional misuse of our services and other undesirable activity on our platform;
+•our ability to obtain, maintain, protect, and enforce our intellectual property rights; and
+Risks Related to Ownership of Our Class A Common Stock
+•limitations on the ability of holders of our Class A Common Stock to influence corporate matters due to the dual class structure of our common stock and the control of a majority of the voting power of our outstanding capital stock by our founder, Chairman, and Chief Executive Officer (CEO).
+Risks Related to Our Product Offerings
+If we fail to retain existing users or add new users, or if our users decrease their level of engagement with our products, our revenue, financial results, and business may be significantly harmed.
+
+The size of our active user base and our users' level of engagement across our products are critical to our success. Our financial performance has been and will continue to be significantly determined by our success in adding, retaining, and engaging active users of our products that deliver ad impressions, particularly for Facebook and Instagram. We have experienced, and expect to continue to experience, fluctuations and declines in the size of our active user base in one or more markets from time to time, particularly in markets where we have achieved higher penetration rates. User growth and engagement are also impacted by a nu

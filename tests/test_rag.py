@@ -4,7 +4,7 @@ from langchain_core.documents import Document
 
 from app.rag.bm25 import BM25Retriever
 from app.rag.chunking import chunk_documents
-from app.rag.loaders import load_document
+from app.rag.loaders import load_company_documents, load_document
 from app.rag.news import save_news_articles
 from app.rag.reranking import AzureRelevanceReranker
 from app.rag.retriever import FinancialDocumentRetriever, reciprocal_rank_fusion
@@ -29,6 +29,14 @@ def test_loading_and_metadata(tmp_path: Path):
     path = tmp_path / "MSFT" / "MSFT_2024_annual_report.txt"; path.parent.mkdir(); path.write_text("Report text")
     document = load_document(path)[0]
     assert document.metadata["ticker"] == "MSFT" and document.metadata["fiscal_year"] == 2024
+
+
+def test_active_corpus_uses_extracts_and_primary_news_only(tmp_path: Path):
+    folder = tmp_path / "MSFT" / "news"; folder.mkdir(parents=True)
+    (tmp_path / "MSFT" / "MSFT_investment_research_extract.txt").write_text("Extract")
+    (folder / "MSFT_2026_official_news_1.md").write_text("Primary news")
+    (folder / "MSFT_2026_official_news_2.md").write_text("Extra news")
+    assert len(load_company_documents(tmp_path)) == 2
 
 
 def test_news_metadata_preserves_original_url(tmp_path: Path):

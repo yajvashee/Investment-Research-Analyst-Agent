@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Investment Research Analyst architecture</title>
+  <desc id="desc">Browser connects to Streamlit, then FastAPI, then the LangGraph investment agent. The agent uses PostgreSQL, RAG with Chroma, and Alpha Vantage. Azure models provide embeddings, reranking, and final answer generation.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#34495e"/></marker>
+    <style>
+      .title { font: 700 34px Arial, sans-serif; fill: #172b4d; }
+      .subtitle { font: 18px Arial, sans-serif; fill: #52606d; }
+      .heading { font: 700 20px Arial, sans-serif; fill: #172b4d; }
+      .label { font: 17px Arial, sans-serif; fill: #172b4d; }
+      .small { font: 14px Arial, sans-serif; fill: #52606d; }
+      .box { stroke-width: 2; rx: 16; ry: 16; }
+      .arrow { stroke: #34495e; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#f7f9fc"/>
+  <text x="800" y="55" text-anchor="middle" class="title">Investment Research Analyst — Architecture</text>
+  <text x="800" y="84" text-anchor="middle" class="subtitle">A single LangGraph agent selects the most relevant source of evidence for each question.</text>
+
+  <!-- Docker boundary -->
+  <rect x="70" y="115" width="1460" height="810" rx="24" fill="#ffffff" stroke="#3b82f6" stroke-width="3" stroke-dasharray="10 8"/>
+  <text x="100" y="148" class="heading" fill="#2563eb">Docker Compose — local application</text>
+
+  <!-- User and frontend -->
+  <rect x="130" y="205" width="250" height="130" class="box" fill="#e0f2fe" stroke="#0284c7"/>
+  <text x="255" y="250" text-anchor="middle" class="heading">User / Browser</text>
+  <text x="255" y="280" text-anchor="middle" class="small">http://localhost:8501</text>
+  <text x="255" y="305" text-anchor="middle" class="small">Asks a research question</text>
+
+  <rect x="475" y="195" width="285" height="150" class="box" fill="#dcfce7" stroke="#16a34a"/>
+  <text x="618" y="240" text-anchor="middle" class="heading">Frontend Container</text>
+  <text x="618" y="270" text-anchor="middle" class="label">Streamlit</text>
+  <text x="618" y="300" text-anchor="middle" class="small">Question form and results</text>
+  <text x="618" y="323" text-anchor="middle" class="small">Calls http://backend:8000</text>
+
+  <rect x="855" y="195" width="285" height="150" class="box" fill="#fef3c7" stroke="#d97706"/>
+  <text x="998" y="240" text-anchor="middle" class="heading">Backend Container</text>
+  <text x="998" y="270" text-anchor="middle" class="label">FastAPI</text>
+  <text x="998" y="300" text-anchor="middle" class="small">POST /research</text>
+  <text x="998" y="323" text-anchor="middle" class="small">Passes the question to the agent</text>
+
+  <path d="M380 270 L475 270" class="arrow"/>
+  <path d="M760 270 L855 270" class="arrow"/>
+
+  <!-- Agent -->
+  <rect x="455" y="430" width="710" height="180" class="box" fill="#ede9fe" stroke="#7c3aed" stroke-width="3"/>
+  <text x="810" y="475" text-anchor="middle" class="heading">LangGraph Investment Research Agent</text>
+  <text x="810" y="510" text-anchor="middle" class="label">1. Understand question  →  2. Plan research  →  3. Call tools</text>
+  <text x="810" y="540" text-anchor="middle" class="label">4. Analyse evidence  →  5. Create response</text>
+  <text x="810" y="578" text-anchor="middle" class="small">Single agent: it chooses which source is useful; it does not store all data itself.</text>
+  <path d="M998 345 L998 430" class="arrow"/>
+
+  <!-- Source tools -->
+  <rect x="130" y="720" width="330" height="150" class="box" fill="#dbeafe" stroke="#2563eb"/>
+  <text x="295" y="760" text-anchor="middle" class="heading">PostgreSQL Container</text>
+  <text x="295" y="790" text-anchor="middle" class="label">Historical Financial Database</text>
+  <text x="295" y="818" text-anchor="middle" class="small">9 companies, 2021–2024</text>
+  <text x="295" y="842" text-anchor="middle" class="small">Revenue, profit, debt, cash, EPS</text>
+
+  <rect x="635" y="690" width="350" height="210" class="box" fill="#fce7f3" stroke="#db2777"/>
+  <text x="810" y="730" text-anchor="middle" class="heading">RAG Document Search</text>
+  <text x="810" y="760" text-anchor="middle" class="label">Company reports + official news</text>
+  <text x="810" y="790" text-anchor="middle" class="small">text-embedding-3-small → Chroma dense search</text>
+  <text x="810" y="815" text-anchor="middle" class="small">+ BM25 keyword search → RRF → reranking</text>
+  <text x="810" y="850" text-anchor="middle" class="small">Returns relevant chunks with citations</text>
+
+  <rect x="1160" y="720" width="300" height="150" class="box" fill="#ecfccb" stroke="#65a30d"/>
+  <text x="1310" y="760" text-anchor="middle" class="heading">Alpha Vantage API</text>
+  <text x="1310" y="790" text-anchor="middle" class="label">External market-data API</text>
+  <text x="1310" y="818" text-anchor="middle" class="small">Price, P/E, market cap, volume</text>
+  <text x="1310" y="842" text-anchor="middle" class="small">Free-tier limits handled safely</text>
+
+  <path d="M595 610 L370 720" class="arrow"/>
+  <path d="M810 610 L810 690" class="arrow"/>
+  <path d="M1025 610 L1230 720" class="arrow"/>
+
+  <!-- Azure note -->
+  <rect x="1190" y="440" width="270" height="150" class="box" fill="#fff7ed" stroke="#ea580c"/>
+  <text x="1325" y="478" text-anchor="middle" class="heading">Azure OpenAI</text>
+  <text x="1325" y="510" text-anchor="middle" class="small">text-embedding-3-small</text>
+  <text x="1325" y="535" text-anchor="middle" class="small">gpt-4.1-mini</text>
+  <text x="1325" y="563" text-anchor="middle" class="small">Reranking + final answer</text>
+  <path d="M1165 520 L1190 520" class="arrow"/>
+
+  <!-- Response arrow -->
+  <path d="M455 520 C330 520, 255 470, 255 335" class="arrow"/>
+  <text x="170" y="505" class="small">Evidence-based answer</text>
+</svg>

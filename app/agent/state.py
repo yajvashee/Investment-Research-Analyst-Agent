@@ -13,6 +13,7 @@ class InvestmentAgentState(TypedDict, total=False):
     selected_tools: list[str]
     tool_results: dict[str, Any]
     analysis: list[str]
+    risk_answer: str
     recommendation: str
     sources: list[dict[str, Any]]
     final_response: str

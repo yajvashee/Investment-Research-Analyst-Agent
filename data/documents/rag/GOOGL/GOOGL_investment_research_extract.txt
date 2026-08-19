@@ -1,0 +1,100 @@
+<!-- RAG_METADATA: {"company_name": "GOOGL", "ticker": "GOOGL", "document_name": "GOOGL Annual Report: Business and Risk Extract", "document_type": "annual_report_extract", "fiscal_year": 2024, "source": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm"} -->
+Item 1 Business and Note 15 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K.
+The following table presents segment operating income (loss) (in millions).
+
+Year Ended December 31,
+20232024
+
+Operating income (loss):
+Google Services$95,858 $121,263 
+Google Cloud1,716 6,112 
+Other Bets(4,095)(4,444)
+
+Alphabet-level activities(1)(9,186)(10,541)
+Total income from operations$84,293 $112,390 
+(1)In addition to the costs included in Alphabet-level activities, hedging gains (losses) related to revenue were $236 million and $211 million in 2023 and 2024, respectively. For the years ended December 31, 2023 and 2024, Alphabet-level activities included substantially all of the charges related to employee severance and our office space charges. 
+
+39. 
+
+Table of ContentsAlphabet Inc.
+Google Services
+Google Services operating income increased $25.4 billion from 2023 to 2024. The increase in operating income was primarily driven by an increase in revenues, partially offset by increases in content acquisition costs and TAC. Additionally, a reduction in employee compensation expenses contributed to the increase in operating income.
+Google Cloud
+Google Cloud operating income increased $4.4 billion from 2023 to 2024. The increase in operating income was primarily driven by an increase in revenues, partially offset by increases in usage costs for technical infrastructure as well as employee compensation expenses, largely driven by headcount growth.
+Other Bets 
+Other Bets operating loss increased $349 million from 2023 to 2024. The increase in operating loss was primarily due to an increase in expenses, largely driven by employee compensation expenses in addition to a combination of factors, none of which were individually significant. The increase in employee compensation expenses was primarily as a result of the reduction in valuation-based compensation liabilities related to certain Other Bets recognized in the prior year comparable period.
+
+Other Income (Expense), Net
+The following table presents OI&E, (in millions):
+
+ Year Ended December 31,
+ 20232024
+Interest income$3,865 $4,482 
+
+Interest expense(308)(268)
+Foreign currency exchange gain (loss), net(1,238)(409)
+Gain (loss) on debt securities, net(1,215)(1,043)
+Gain (loss) on equity securities, net392 3,714 
+Performance fees257 218 
+Income (loss) and impairment from equity method investments, net(628)(188)
+Other299 919 
+Other income (expense), net$1,424 $7,425 
+OI&E, net increased $6.0 billion from 2023 to 2024 primarily due to an increase in net gains on equity securities and a decrease in net losses on foreign currency exchange. The net gains on equity securities were primarily due to net unrealized gains on non-marketable equity securities driven by fair value adjustments related to observable transactions, partially offset by a decrease in net unrealized gains on marketable equity securities due to market-driven changes. Foreign currency exchange net losses decreased compared to the prior year primarily due to prior year losses in unhedged currencies.
+In January 2025, we recognized an $8.0 billion unrealized gain on our non-marketable equity securities related to our investment in a private company. The unrealized gain reflects an increase in the fair value measurement of our investment following an observable transaction in January 2025. 
+For additional information, see Note 3 and Note 7 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K.
+
+Provision for Income Taxes
+The following table presents provision for income taxes (in millions, except effective tax rate):
+
+ Year Ended December 31,
+ 20232024
+Income before provision for income taxes$85,717 $119,815 
+Provision for income taxes$11,922 $19,697 
+Effective tax rate13.9 %16.4 %
+The effective tax rate increased from 2023 to 2024. This increase was primarily due to a one-time adjustment for tax rule changes issued by the Internal Revenue Service (IRS) that affected the 2023 rate related to U.S. federal foreign tax credits, as well as a separate rule change with guidance on the capitalization and amortization of R&D 
+
+40. 
+
+Table of ContentsAlphabet Inc.
+expenses. Additionally, a decrease in the 2024 U.S. federal Foreign Derived Intangible Income tax deduction contributed to an increase in the effective tax rate. These factors were partially offset by an increase in stock-based compensation-related tax benefits in 2024.
+The OECD is coordinating negotiations among more than 140 countries with the goal of achieving consensus around substantial changes to international tax policies, including the implementation of a minimum global effective tax rate of 15%. Some countries have already implemented the legislation effective January 1, 2024, and we expect others to follow, however this did not have a material effect on our income tax provision for the 2024 fiscal year. 
+
+Financial Condition
+Cash, Cash Equivalents, and Market
+
+Item 1A Risk Factors and Legal Matters in Note 10 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K.
+•Our employees are critical to our success and we expect to continue investing in them.
+Our employees are among our best assets and are critical for our continued success. We expect to continue hiring talented employees around the globe and to provide competitive compensation programs. For additional information, see Culture and Workforce in Part I, Item 1 Business of this Annual Report on Form 10-K.
+
+Revenues and Monetization Metrics
+We generate revenues by delivering relevant, cost-effective online advertising; cloud-based solutions that provide enterprise customers of all sizes with infrastructure, platform services, and applications; sales of other products and services, such as fees received for subscription-based products, apps and in-app purchases, and devices. For additional information on how we recognize revenue, see Note 1 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K.
+In addition to the long-term trends and their financial effect on our business discussed above, fluctuations in our revenues have been and may continue to be affected by a combination of factors, including:
+•changes in foreign currency exchange rates;
+•changes in pricing, such as those resulting from changes in fee structures, discounts, and customer incentives;
+•general economic conditions and various external dynamics, including geopolitical events, regulations, and other measures and their effect on advertiser, consumer, and enterprise spending; 
+•new product, service, and market launches; and
+
+31. 
+
+Table of ContentsAlphabet Inc.
+•seasonality.
+Additionally, fluctuations in our revenues generated from advertising ("Google advertising"), other sources ("Google subscriptions, platforms, and devices"), Google Cloud, and Other Bets have been, and may continue to be, affected by other factors unique to each set of revenues, as described below.
+Google Services
+Google Services revenues consist of Google advertising as well as Google subscriptions, platforms, and devices revenues.
+Google Advertising
+Google advertising revenues are comprised of the following: 
+•Google Search & other, which includes revenues generated on Google search properties (including revenues from traffic generated by search distribution partners who use Google.com as their default search in browsers, toolbars, etc.), and other Google owned and operated properties like Gmail, Google Maps, and Google Play;
+•YouTube ads, which includes revenues generated on YouTube properties; and
+•Google Network, which includes revenues generated on Google Network properties participating in AdMob, AdSense, and Google Ad Manager.
+We use certain metrics to track how well traffic across various properties is monetized as it relates to our advertising revenues: paid clicks and cost-per-click pertain to traffic on Google Search & other properties, while impressions and cost-per-impression pertain to traffic on our Google Network properties.
+Paid clicks represent engagement by users and include clicks on advertisements by end-users on Google search properties and other Google owned and operated properties including Gmail, Google Maps, and Google Play. Cost-per-click is defined as click-driven revenues divided by our total number of paid clicks and represents the average amount we charge advertisers for each engagement by users.
+Impressions include impressions displayed to users on Google Network properties participating primarily in AdMob, AdSense, and Google Ad Manager. Cost-per-impression is defined as impression-based and click-based revenues divided by our total number of impressions, and represents the average amount we charge advertisers for each impression displayed to users.
+As our business evolves, we periodically review, refine, and update our methodologies for monitoring, gathering, and counting the number of paid clicks and the number of impressions, and for identifying the revenues generated by the corresponding click and impression activity.
+Fluctuations in our advertising revenues, as well as the change in paid clicks and cost-per-click on Google Search & other properties and the change in impressions and cost-per-impression on Google Network properties and the correlation between these items have been, and may continue to be, affected by factors in addition to the general factors described above, such as:
+•advertiser competition for keywords;
+•changes in advertising quality, formats, delivery or policy;
+•changes in device mix;
+•seasonal fluctuations in internet usage, advertising expenditures, and underlying business trends, such as traditional retail seasonality; and
+•traffic growth in emerging markets compared to more mature markets and across various verticals and channels.
+Google subscriptions, platforms, and devices
+Google subscriptions, platforms, and device
