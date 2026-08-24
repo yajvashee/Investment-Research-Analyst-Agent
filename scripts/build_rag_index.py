@@ -1,6 +1,7 @@
-"""Build the saved local Chroma index after RAG source documents change."""
+"""Build the configured Chroma or OpenSearch index after source changes."""
 from __future__ import annotations
 
+import os
 import sys
 from pathlib import Path
 
@@ -10,4 +11,6 @@ from app.rag.retriever import build_rag_index
 
 
 chunk_count = build_rag_index()
-print(f"Saved RAG index with {chunk_count} chunks in data/chroma.")
+backend = os.getenv("VECTOR_STORE", "chroma").strip().lower()
+destination = "Amazon OpenSearch" if backend == "opensearch" else "data/chroma"
+print(f"Saved RAG index with {chunk_count} chunks in {destination}.")

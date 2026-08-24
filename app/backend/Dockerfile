@@ -10,6 +10,8 @@ COPY pyproject.toml uv.lock README.md ./
 RUN uv sync --frozen --no-dev
 
 COPY app ./app
+COPY scripts/build_rag_index.py ./scripts/build_rag_index.py
+COPY data/documents/rag ./data/documents/rag
 
 EXPOSE 8000
 

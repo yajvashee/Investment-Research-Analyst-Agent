@@ -35,7 +35,7 @@ Browser -> Streamlit -> FastAPI -> LangGraph agent -> PostgreSQL / RAG / Alpha V
 | PostgreSQL | Historical structured financial data for 9 companies from 2021-2024. |
 | Alpha Vantage | Current/recent market-data API, subject to free-tier limits. |
 | RAG | Searches selected annual-report/risk extracts and official-news documents. |
-| Dense retrieval | Azure `text-embedding-3-small` plus Chroma semantic vector search. |
+| Dense retrieval | Azure `text-embedding-3-small` plus local Chroma or Amazon OpenSearch k-NN vector search. |
 | BM25 | Keyword-based sparse retrieval. |
 | RRF | Combines dense and BM25 rankings. |
 | Reranking | Azure `gpt-4.1-mini` reorders candidate RAG chunks by relevance. |
@@ -55,7 +55,7 @@ app/
   rag/          Loaders, chunking, embeddings, Chroma, BM25, RRF, reranking
 data/
   documents/rag/  Company-document source files
-  chroma/         Persistent local Chroma vector index
+  chroma/         Persistent local Chroma vector index (local mode only)
 docs/             Architecture diagram, AWS guide, and final checklist
 evaluation/       Evaluation questions and generated routing results
 scripts/          Manual setup, ingestion, testing, and evaluation commands
@@ -116,6 +116,29 @@ uv run python scripts/build_rag_index.py
 ```
 
 This sends document chunks to the configured Azure embedding deployment and may consume Azure quota or incur usage charges.
+
+Chroma remains the default for local development:
+
+```text
+VECTOR_STORE=chroma
+```
+
+For an ECS deployment, the backend can instead use an IAM-authenticated Amazon
+OpenSearch domain:
+
+```text
+VECTOR_STORE=opensearch
+OPENSEARCH_ENDPOINT=https://vpc-your-domain.eu-west-2.es.amazonaws.com
+OPENSEARCH_INDEX=investment-research
+OPENSEARCH_SERVICE=es
+AWS_REGION=eu-west-2
+```
+
+Run the same indexing command from a machine or one-off ECS task with network
+access to the VPC domain. It creates the k-NN index and uploads the active
+document chunks. The ECS task role must have the required OpenSearch HTTP
+permissions. Local BM25 and Azure reranking remain part of the hybrid retrieval
+pipeline in both modes.
 
 ## Run services outside Docker
 
@@ -197,6 +220,11 @@ For `How has Microsoft's revenue changed?`, the agent selects PostgreSQL and ret
 The recommended simple training-project deployment is one EC2 instance running the existing Docker Compose stack. AWS was not deployed from this machine because no AWS profile, credentials, or region is configured. This is intentionally documented rather than faking a cloud deployment.
 
 See [AWS deployment guide](docs/aws-deployment.md) for the recommended architecture, configuration values, security notes, and reproducible commands.
+
+The backend image includes the active RAG source documents and the index-build
+entry point. This allows an ECS one-off task to populate a private OpenSearch
+domain before the main service starts. Secrets such as database and API keys
+should be injected through AWS Secrets Manager rather than copied from `.env`.
 
 ## Limitations
 

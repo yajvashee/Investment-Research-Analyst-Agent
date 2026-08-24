@@ -8,7 +8,7 @@ from app.rag.loaders import load_company_documents, load_document
 from app.rag.news import save_news_articles
 from app.rag.reranking import AzureRelevanceReranker
 from app.rag.retriever import FinancialDocumentRetriever, reciprocal_rank_fusion
-from app.rag.vectorstore import DenseRetriever
+from app.rag.vectorstore import DenseRetriever, OpenSearchDenseRetriever, rebuild_opensearch_index
 
 
 class FakeEmbeddings:
@@ -16,6 +16,48 @@ class FakeEmbeddings:
         return [[float(text.lower().count("risk")), float(text.lower().count("cloud"))] for text in texts]
     def embed_query(self, text):
         return [float(text.lower().count("risk")), float(text.lower().count("cloud"))]
+
+
+class FakeOpenSearchIndices:
+    def __init__(self, exists=False):
+        self.exists_value = exists
+        self.created = None
+        self.deleted = None
+
+    def exists(self, index):
+        return self.exists_value
+
+    def delete(self, index):
+        self.deleted = index
+
+    def create(self, index, body):
+        self.created = (index, body)
+
+
+class FakeOpenSearchClient:
+    def __init__(self, exists=False):
+        self.indices = FakeOpenSearchIndices(exists)
+        self.bulk_body = None
+        self.search_body = None
+
+    def bulk(self, body, refresh):
+        self.bulk_body = body
+        return {"errors": False}
+
+    def search(self, index, body):
+        self.search_body = body
+        return {
+            "hits": {
+                "hits": [
+                    {
+                        "_source": {
+                            "text": "Cloud security risk is important.",
+                            "metadata": {"ticker": "MSFT", "source": "test"},
+                        }
+                    }
+                ]
+            }
+        }
 
 
 def documents():
@@ -54,6 +96,32 @@ def test_dense_and_bm25_retrieval_filter_by_ticker():
     chunks = documents()
     assert DenseRetriever(chunks, FakeEmbeddings()).search("cloud risk", "MSFT", 2)[0].metadata["ticker"] == "MSFT"
     assert BM25Retriever(chunks).search("cloud risk", "MSFT", 2)[0].metadata["ticker"] == "MSFT"
+
+
+def test_opensearch_index_builds_vectors_and_metadata():
+    client = FakeOpenSearchClient(exists=True)
+    retriever = rebuild_opensearch_index(
+        documents(), FakeEmbeddings(), index_name="test-index", client=client
+    )
+
+    assert client.indices.deleted == "test-index"
+    mapping = client.indices.created[1]
+    assert mapping["mappings"]["properties"]["embedding"]["dimension"] == 2
+    assert client.bulk_body[1]["ticker"] == "MSFT"
+    assert isinstance(retriever, OpenSearchDenseRetriever)
+
+
+def test_opensearch_search_uses_ticker_filter_and_restores_document():
+    client = FakeOpenSearchClient(exists=True)
+    retriever = OpenSearchDenseRetriever.open_existing(
+        FakeEmbeddings(), index_name="test-index", client=client
+    )
+
+    results = retriever.search("cloud risk", "msft", 3)
+
+    knn = client.search_body["query"]["knn"]["embedding"]
+    assert knn["filter"] == {"term": {"ticker": "MSFT"}}
+    assert results[0].metadata["source"] == "test"
 
 
 def test_rrf_and_reranking():

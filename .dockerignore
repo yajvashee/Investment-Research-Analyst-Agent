@@ -6,6 +6,15 @@ __pycache__
 *.pyc
 .vscode
 .idea
-data
+data/*
+!data/documents/
+data/documents/*
+!data/documents/rag/
+!data/documents/rag/**
+data/documents/rag/**/*.html
+data/documents/rag/**/*.metadata.json
+data/documents/rag/**/*official_news_2.md
+data/documents/rag/**/*official_news_3.md
 tests
-scripts
+scripts/*
+!scripts/build_rag_index.py
